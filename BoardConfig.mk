@@ -28,7 +28,7 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     system \
     boot
-BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_USES_RECOVERY_AS_BOOT := false
 
 # Architecture
 TARGET_ARCH := arm64
@@ -120,7 +120,6 @@ TARGET_RECOVERY_UI_LIB := \
 BOARD_PREBUILT_BOOTIMAGE := device/google/shiba/prebuilt/boot.img
 TARGET_NO_KERNEL := true
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
-BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
 TARGET_RECOVERY_WIPE := device/google/zuma/recovery.wipe
