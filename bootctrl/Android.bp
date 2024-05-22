@@ -18,5 +18,5 @@
 cc_library {
     name: "bootctrl.zuma",
     defaults: ["bootctrl_hal_defaults"],
-    static_libs: ["libgptutils.crosshatch"],
+    static_libs: ["libgptutils.zuma"],
 }
